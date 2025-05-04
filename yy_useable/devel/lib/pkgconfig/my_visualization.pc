@@ -1,0 +1,8 @@
+prefix=/home/misaka/drone/yy_useable/devel
+
+Name: my_visualization
+Description: Description of my_visualization
+Version: 0.0.0
+Cflags: -I/home/misaka/drone/yy_useable/src/planner/minimal_snap/my_visualization/include
+Libs: -L${prefix}/lib 
+Requires: 
