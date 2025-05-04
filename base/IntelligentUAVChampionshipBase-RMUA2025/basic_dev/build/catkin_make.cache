@@ -1,0 +1,2 @@
+airsim_ros:basic_dev:controller:imu_gps_odometry
+-DCATKIN_DEVEL_PREFIX=/home/misaka/drone/base/IntelligentUAVChampionshipBase-RMUA2025/basic_dev/devel -DCMAKE_INSTALL_PREFIX=/home/misaka/drone/base/IntelligentUAVChampionshipBase-RMUA2025/basic_dev/install -G Unix Makefiles
