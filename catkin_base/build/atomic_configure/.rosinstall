@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/misaka/drone/catkin_base/devel/setup.sh
