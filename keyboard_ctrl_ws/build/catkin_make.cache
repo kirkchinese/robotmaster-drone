@@ -1,0 +1,2 @@
+airsim_ros:kb_ctrl
+-DCATKIN_DEVEL_PREFIX=/home/misaka/drone/keyboard_ctrl_ws/devel -DCMAKE_INSTALL_PREFIX=/home/misaka/drone/keyboard_ctrl_ws/install -G Unix Makefiles
