@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/conformal/Fast-Drone-250/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/conformal/Fast-Drone-250/src/planner/bspline_opt/include/**",
+        "/home/conformal/Fast-Drone-250/src/realflight_modules/VINS-Fusion/camera_models/include/**",
+        "/home/conformal/Fast-Drone-250/src/utils/DecompROS/decomp_ros_utils/include/**",
+        "/home/conformal/Fast-Drone-250/src/planner/drone_detect/include/**",
+        "/home/conformal/Fast-Drone-250/src/planner/plan_manage/include/**",
+        "/home/conformal/Fast-Drone-250/src/planner/minimal_snap/min_snap/include/**",
+        "/home/conformal/Fast-Drone-250/src/uav_simulator/mockamap/include/**",
+        "/home/conformal/Fast-Drone-250/src/planner/minimal_snap/my_visualization/include/**",
+        "/home/conformal/Fast-Drone-250/src/planner/path_searching/include/**",
+        "/home/conformal/Fast-Drone-250/src/planner/plan_env/include/**",
+        "/home/conformal/Fast-Drone-250/src/utils/pose_utils/include/**",
+        "/home/conformal/Fast-Drone-250/src/utils/quadrotor_msgs/include/**",
+        "/home/conformal/Fast-Drone-250/src/realflight_modules/realsense-ros/realsense2_camera/include/**",
+        "/home/conformal/Fast-Drone-250/src/uav_simulator/so3_control/include/**",
+        "/home/conformal/Fast-Drone-250/src/uav_simulator/so3_quadrotor_simulator/include/**",
+        "/home/conformal/Fast-Drone-250/src/planner/minimal_snap/traj_server/include/**",
+        "/home/conformal/Fast-Drone-250/src/planner/traj_utils/include/**",
+        "/home/conformal/Fast-Drone-250/src/utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

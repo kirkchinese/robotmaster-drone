@@ -1,0 +1,2 @@
+VINS-Fusion/camera_models:VINS-Fusion/global_fusion:VINS-Fusion/loop_fusion:VINS-Fusion/vins_estimator:airsim_ros:planner/bspline_opt:planner/controller:planner/drone_detect:planner/minimal_snap/min_snap:planner/minimal_snap/my_visualization:planner/minimal_snap/traj_server:planner/path_searching:planner/plan_env:planner/plan_manage:planner/rosmsg_tcp_bridge:planner/traj_utils:utils/quadrotor_msgs
+-DCATKIN_DEVEL_PREFIX=/home/misaka/drone/yy_last/robo_commit/devel -DCMAKE_INSTALL_PREFIX=/home/misaka/drone/yy_last/robo_commit/install -G Unix Makefiles

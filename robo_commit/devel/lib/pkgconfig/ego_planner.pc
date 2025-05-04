@@ -1,0 +1,8 @@
+prefix=/home/misaka/drone/yy_last/robo_commit/devel
+
+Name: ego_planner
+Description: Description of ego_planner
+Version: 0.0.0
+Cflags: -I/home/misaka/drone/yy_last/robo_commit/src/planner/plan_manage/include
+Libs: -L${prefix}/lib -lego_planner
+Requires: plan_env path_searching bspline_opt traj_utils
