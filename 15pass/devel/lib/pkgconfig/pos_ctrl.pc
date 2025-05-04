@@ -1,0 +1,8 @@
+prefix=/home/misaka/drone/15pass/devel
+
+Name: pos_ctrl
+Description: Description of pos_ctrl
+Version: 0.0.0
+Cflags: -I/home/misaka/drone/15pass/src/pos_ctrl/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime roscpp std_msgs
