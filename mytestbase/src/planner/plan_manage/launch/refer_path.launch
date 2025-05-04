@@ -1,0 +1,8 @@
+<launch>
+
+    <node pkg="ego_planner" name="drone0_refer_path" type="refecence_path_node" output="screen">
+        <!-- <remap from="position_cmd" to="/setpoints_cmd"/> -->
+    </node>
+
+
+</launch>

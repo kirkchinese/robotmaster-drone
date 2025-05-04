@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "random": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/misaka/drone/mytestbase/src/airsim_ros"
+}

@@ -1,0 +1,55 @@
+<launch>
+    <!-- odom -->
+    <node pkg="imu_gps_odometry" type="imu_gps_odometry" name="imu_gps_odometry"/>
+    <!-- PID 控制节点 -->
+    <node pkg="pid_controller" type="pid_node" name="pid_controller" output="screen">
+        <!-- 位置控制参数 -->
+        <!-- <param name="rosconsole_config_file" value="$(find pid_controller)/config/rosconsole.config"/>
+        <param name="Kp_x" value="0.001"/>
+        <param name="Ki_x" value="0.01"/>
+        <param name="Kd_x" value="0.1"/>
+        
+        <param name="Kp_y" value="0.001"/>
+        <param name="Ki_y" value="0.01"/>
+        <param name="Kd_y" value="0.1"/>
+        <param name="Kp_theta" value="0.01"/>
+        <param name="Kd_theta" value="0.001"/>
+
+        <param name="Kp_psi" value="0.01"/>
+        <param name="Kd_psi" value="0.001"/> -->
+        
+        <!-- 物理参数 -->
+        <!-- <param name="Ixx" value="0.0046890742"/>
+        <param name="Iyy" value="0.0069312"/>
+        <param name="Izz" value="0.010421166"/>
+
+        <param name="mass" value="0.9"/>
+        <param name="gravity" value="9.8"/>
+        <param name="armlength" value="0.18"/>
+        <param name="Ct" value="0.0003677"/>
+        <param name="Cq" value="0.000004888"/>
+        <param name="Fmax" value="12.5383"/>
+        
+        姿态控制参数
+        <param name="Kp_phi" value="0.01"/>
+        <param name="Kd_phi" value="0.001"/>
+
+        <param name="Kp_theta" value="0.01"/>
+        <param name="Kd_theta" value="0.001"/>
+
+        <param name="Kp_psi" value="0.01"/>
+        <param name="Kd_psi" value="0.001"/> -->
+        
+        <!-- 物理参数 -->
+        <!-- <param name="Ixx" value="0.0046890742"/>
+        <param name="Iyy" value="0.0069312"/>
+        <param name="Izz" value="0.010421166"/> -->
+
+        <!-- <param name="mass" value="0.9"/>
+        <param name="gravity" value="9.8"/>
+        <param name="armlength" value="0.18"/>
+        <param name="Ct" value="0.0003677"/>
+        <param name="Cq" value="0.000004888"/>
+        <param name="Fmax" value="12.5383"/> -->
+    </node>
+</launch>

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libpid_controller.so -o /home/misaka/drone/mytestbase/devel/lib/libpid_controller.so CMakeFiles/pid_controller.dir/src/PIDController.cpp.o
